@@ -12,6 +12,12 @@ if answer.lower() == 'yes':
         print('Wrong Answer :(')
 
     # Add more questions here...
+    answer = input('Question 2: What is your favorite Sports?')
+    if answer.lower() == 'cricket':
+        score += 1
+        print('Correct!')
+    else:
+        print('Wrong Answer :(')
 
     print(f'Thank you for playing! You attempted {score} questions correctly!')
     mark = (score / total_questions) * 100
