@@ -14,5 +14,9 @@ public class HelloWorld {
 
         // println() prints the following line to the output screen
         System.out.println("You entered: " + number);
+		System.out.println("Completed")
     }
 }
+
+
+git remote add origin git@github.com:Gobi7270/applicationJava.git
